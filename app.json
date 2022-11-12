@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Notes-App",
+    "slug": "Notes-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/playstore.png",
+    "splash": {
+      "image": "./assets/main.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F7F7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/playstore.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.muzammil17sp.NotesAppc"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
